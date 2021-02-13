@@ -25,6 +25,7 @@ Clean the build directory
 
 ### Features
 * Searches a given directory for duplicate files by content
+* Find the difference between 2 directories by content
 * Uses the SHA-256 hash
 
 ### Requirements
@@ -40,3 +41,4 @@ ____________
 
 ### Command line usage
 * Run `dedup.py <directory>` to list duplicate files by content (hash)
+* Run `diff.py <dir> <larger_dir>` to list differences by content (hash)
